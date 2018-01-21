@@ -1,0 +1,101 @@
+nav{
+	position: fixed;
+	margin-top: -10px;
+	padding-left: 60px;
+	padding-right: 60px;
+	width: 100%;
+	height: 40px;
+	background-color: lightgrey;
+}
+
+.box{
+	display: inline-block;
+}
+
+.hover:hover{
+	text-decoration: underline;
+}
+
+.left, .right{
+	position: absolute;
+	font-size: 150%;
+}
+
+.left{
+	top: 2px;
+	left: 20px;
+}
+
+.right{
+	top: -20px;
+	right: 140px;
+}
+
+.element{
+	margin-right: 20px;
+}
+
+.element:link{
+	color: blue;
+}
+
+.element:visited{
+	color: purple
+}
+
+.element:active{
+	color: red;
+}
+
+main{
+	padding-top: 70px;
+	padding-left: 120px;
+}
+
+.input{
+	position: relative;
+	margin-left: 5px;
+}
+
+.input-text{
+	margin-top: 20px;
+	width: 50%;
+	height: 15px;
+}
+
+.input-image{
+	position: absolute;
+	top: 20px;
+	width: 19px;
+	border: 1px lightgrey solid;
+	margin-left: 5px;
+}
+
+.scroll-block{
+	margin-top: 80px;
+	margin-bottom: 80px;
+	margin-left: 10px;
+}
+
+.scroll{
+	border: 1px solid lightgrey;
+}
+
+.scroll-text{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.timetable-block{
+	margin-bottom: 10px;
+}
+
+.dim{
+	color: grey;
+	margin-right: 5px;
+}
+
+.highlight{
+	color: blue;
+	margin-right: 5px;
+}

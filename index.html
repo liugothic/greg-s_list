@@ -8,7 +8,7 @@
 </head>
 <body>
   <nav>
-    <div class="left hover">Greg's List</div>
+    <h1 class="left hover">Greg's List</div>
 
     <ul class="right">
       <li class="element box"><a href="">Post</a></li>
@@ -17,17 +17,13 @@
   </nav>
 
   <main>
-    <label for="">Search Jobs</label>
-
     <form action="" class="input">
+      <label for="">Search Jobs</label>
       <input type="text" placeholder="Seach software jobs" class="input-text">
       <input type="image" src="./images/magnifying-glass.png" class="input-image">
     </form>
 
-    <div class="scroll-block">
-<!--       <div class="box scroll hover">< prev</div
-      ><div class="box scroll">1 to 100 of 179</div
-      ><div class="box scroll hover">next ></div> -->
+    <nav class="scroll-block">
       <div class="box scroll">
         <p class="scroll-text">< prev</p> 
       </div
@@ -37,25 +33,25 @@
       ><div class="box scroll">
         <p class="scroll-text">next ></p> 
       </div>
-    </div>
+    </nav>
 
-    <div>
-      <div class="timetable-block">
-        <div class="box dim">June 22</div>
-        <div class="box highlight element"><a href="">Technical Project Manager</a></div>
-        <div class="box dim">Midtown East</div>
-      </div>
-      <div class="timetable-block">
-        <div class="box dim">June 21</div>
-        <div class="box highlight element"><a href="">Frontend Developer</a></div>
-        <div class="box dim">SoHo</div>
-      </div>
-      <div class="timetable-block">
-        <div class="box dim">June 20</div>
-        <div class="box highlight element"><a href="">Senior Python Developer / Cofounder</a></div>
-        <div class="box dim">Flatiron</div>
-      </div>
-    </div>
+    <section>
+      <ul class="timetable-block">
+        <li class="box dim">June 22</li>
+        <li class="box highlight element"><a href="">Technical Project Manager</a></li>
+        <li class="box dim">Midtown East</li>
+      </ul>
+      <ul class="timetable-block">
+        <li class="box dim">June 21</li>
+        <li class="box highlight element"><a href="">Frontend Developer</a></li>
+        <li class="box dim">SoHo</li>
+      </ul>
+      <ul class="timetable-block">
+        <li class="box dim">June 20</li>
+        <li class="box highlight element"><a href="">Senior Python Developer / Cofounder</a></li>
+        <li class="box dim">Flatiron</li>
+      </ul>
+    </section>
   </main>
 </body>
 </html>
